@@ -91,7 +91,7 @@ if [ $eslint_exit_code = 0 ] && [ $stylelint_exit_code = 0 ]
 then
     add_files_to_staged_tree "${ts_tsx_files_to_add_after_linting[*]} ${scss_files_to_add_after_linting[*]}"
     echo -e "${GREEN} ✔ Eslint and Stylelint did not find any errors [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅] ${NC}"
-    exit 1
+    exit 0
 else
     echo -e "${RED} ❌ Linter errors have occurred ( ͡ಥ ͜ʖ ͡ಥ) ${NC}"
     exit 1
