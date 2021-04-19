@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "postinstall": "ln -s -f ../../git-hooks/pre-commit .git/hooks/pre-commit",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
