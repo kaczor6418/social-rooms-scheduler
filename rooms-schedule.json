@@ -1,1360 +1,171 @@
 {
   "monday": {
-    "0": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
+    "date": "01-01-2021",
+    "reservations":  [
+      {
+        "start": "12:30",
+        "end": "14:21",
+        "people": [
+          {
+            "firstName": "Jan",
+            "lastName": "Nowak",
+            "roomNumber": 112
+          }
+        ]
       },
-      "people": []
-    },
-    "1": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "2": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "3": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "4": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "5": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "6": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "7": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "8": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "9": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "10": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "11": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "12": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "13": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "14": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "15": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "16": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "17": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "18": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "19": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "20": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "21": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "22": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "23": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    }
+      {
+        "start": "13:30",
+        "end": "14:21",
+        "people": [
+          {
+            "firstName": "Justyna",
+            "lastName": "Kowalczyk",
+            "roomNumber": 2
+          },
+          {
+            "firstName": "Jan",
+            "lastName": "Nowak",
+            "roomNumber": 113
+          },
+          {
+            "firstName": "Andrzej",
+            "lastName": "Konieczny",
+            "roomNumber": 321
+          }
+        ]
+      }
+    ]
   },
   "tuesday": {
-    "0": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
+    "date": "02-01-2021",
+    "reservations":  [
+      {
+        "start": "12:30",
+        "end": "14:21",
+        "people": [
+          {
+            "firstName": "Jan",
+            "lastName": "Nowak",
+            "roomNumber": 112
+          }
+        ]
       },
-      "people": []
-    },
-    "1": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
+      {
+        "start": "13:30",
+        "end": "14:21",
+        "people": [
+          {
+            "firstName": "Justyna",
+            "lastName": "Kowalczyk",
+            "roomNumber": 2
+          },
+          {
+            "firstName": "Jan",
+            "lastName": "Nowak",
+            "roomNumber": 113
+          },
+          {
+            "firstName": "Andrzej",
+            "lastName": "Konieczny",
+            "roomNumber": 321
+          }
+        ]
       },
-      "people": []
-    },
-    "2": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "3": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "4": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "5": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "6": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "7": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "8": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "9": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "10": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "11": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "12": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "13": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "14": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "15": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "16": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "17": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "18": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "19": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "20": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "21": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "22": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "23": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    }
+      {
+        "start": "16:30",
+        "end": "21:45",
+        "people": [
+          {
+            "firstName": "Justyna",
+            "lastName": "Kowalczyk",
+            "roomNumber": 2
+          },
+          {
+            "firstName": "Jan",
+            "lastName": "Nowak",
+            "roomNumber": 113
+          },
+          {
+            "firstName": "Andrzej",
+            "lastName": "Konieczny",
+            "roomNumber": 321
+          }
+        ]
+      }
+    ]
   },
   "wednesday": {
-    "0": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "1": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "2": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "3": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "4": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "5": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "6": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "7": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "8": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "9": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "10": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "11": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "12": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "13": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "14": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "15": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "16": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "17": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "18": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "19": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "20": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "21": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "22": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "23": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    }
+    "date": "03-01-2021",
+    "reservations": [
+      {
+        "start": "08:00",
+        "end": "10:21",
+        "people": [
+          {
+            "firstName": "Antek",
+            "lastName": "Tuptp",
+            "roomNumber": 3
+          },
+          {
+            "firstName": "Milena",
+            "lastName": "Nowak",
+            "roomNumber": 123
+          },
+          {
+            "firstName": "Michał",
+            "lastName": "Konieczny",
+            "roomNumber": 421
+          }
+        ]
+      }
+    ]
   },
   "thursday": {
-    "0": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "1": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "2": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "3": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "4": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "5": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "6": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "7": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "8": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "9": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "10": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "11": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "12": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "13": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "14": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "15": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "16": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "17": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "18": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "19": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "20": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "21": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "22": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "23": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    }
+    "date": "04-01-2021",
+    "reservations":  [
+      {
+        "start": "22:30",
+        "end": "23:21",
+        "people": [
+          {
+            "firstName": "Kamil",
+            "lastName": "Nowak",
+            "roomNumber": 521
+          }
+        ]
+      }
+    ]
   },
   "friday": {
-    "0": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "1": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "2": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "3": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "4": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "5": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "6": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "7": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "8": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "9": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "10": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "11": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "12": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "13": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "14": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "15": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "16": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "17": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "18": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "19": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "20": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "21": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "22": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "23": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    }
+    "date": "05-01-2021",
+    "reservations": []
   },
   "saturday": {
-    "0": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "1": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "2": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "3": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "4": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "5": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "6": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "7": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "8": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "9": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "10": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "11": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "12": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "13": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "14": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "15": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "16": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "17": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "18": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "19": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "20": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "21": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "22": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "23": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    }
+    "date": "06-01-2021",
+    "reservations": []
   },
   "sunday": {
-    "0": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "1": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "2": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "3": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "4": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "5": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "6": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "7": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "8": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "9": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "10": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "11": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "12": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "13": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "14": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "15": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "16": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "17": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "18": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "19": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "20": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "21": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "22": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    },
-    "23": {
-      "keyOwner": {
-        "firstName": null,
-        "lastName": null,
-        "roomNumber": null
-      },
-      "people": []
-    }
+    "date": "07-01-2021",
+    "reservations": [ {
+      "start": "10:30",
+      "end": "12:21",
+      "people": [
+        {
+          "firstName": "Krzysztof",
+          "lastName": "Kowalczyk",
+          "roomNumber": 6
+        },
+        {
+          "firstName": "Szymon",
+          "lastName": "Nowak",
+          "roomNumber": 231
+        },
+        {
+          "firstName": "Maciej",
+          "lastName": "Konieczny",
+          "roomNumber": 452
+        }
+      ]
+    }]
   }
 }
