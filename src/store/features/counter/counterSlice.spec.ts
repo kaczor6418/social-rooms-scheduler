@@ -1,7 +1,8 @@
-import counterReducer, {
+import {
+  counterReducer,
   CounterState,
-  increment,
   decrement,
+  increment,
   incrementByAmount
 } from './counterSlice';
 

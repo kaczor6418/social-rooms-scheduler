@@ -4,12 +4,11 @@ import { useAppSelector, useAppDispatch } from '../../../app/hooks';
 import {
   decrement,
   increment,
-  incrementByAmount,
-  incrementAsync,
-  incrementIfOdd,
-  selectCount
-} from './counterSlice';
+  incrementByAmount
+} from '../../../store/features/counter/counterSlice';
 import styles from './Counter.module.scss';
+import { selectCount } from '../../../store/features/counter/counterSelectors';
+import { incrementAsync, incrementIfOdd } from '../../../store/features/counter/counterActions';
 
 export function Counter() {
   const count = useAppSelector(selectCount);
