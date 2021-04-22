@@ -1,7 +1,7 @@
-{
-  "monday": {
+[
+  {
     "date": "01-01-2021",
-    "reservations":  [
+    "reservations": [
       {
         "start": "12:30",
         "end": "14:21",
@@ -36,9 +36,9 @@
       }
     ]
   },
-  "tuesday": {
+  {
     "date": "02-01-2021",
-    "reservations":  [
+    "reservations": [
       {
         "start": "12:30",
         "end": "14:21",
@@ -94,7 +94,7 @@
       }
     ]
   },
-  "wednesday": {
+  {
     "date": "03-01-2021",
     "reservations": [
       {
@@ -120,9 +120,9 @@
       }
     ]
   },
-  "thursday": {
+  {
     "date": "04-01-2021",
-    "reservations":  [
+    "reservations": [
       {
         "start": "22:30",
         "end": "23:21",
@@ -136,36 +136,38 @@
       }
     ]
   },
-  "friday": {
+  {
     "date": "05-01-2021",
     "reservations": []
   },
-  "saturday": {
+  {
     "date": "06-01-2021",
     "reservations": []
   },
-  "sunday": {
+  {
     "date": "07-01-2021",
-    "reservations": [ {
-      "start": "10:30",
-      "end": "12:21",
-      "people": [
-        {
-          "firstName": "Krzysztof",
-          "lastName": "Kowalczyk",
-          "roomNumber": 6
-        },
-        {
-          "firstName": "Szymon",
-          "lastName": "Nowak",
-          "roomNumber": 231
-        },
-        {
-          "firstName": "Maciej",
-          "lastName": "Konieczny",
-          "roomNumber": 452
-        }
-      ]
-    }]
+    "reservations": [
+      {
+        "start": "10:30",
+        "end": "12:21",
+        "people": [
+          {
+            "firstName": "Krzysztof",
+            "lastName": "Kowalczyk",
+            "roomNumber": 6
+          },
+          {
+            "firstName": "Szymon",
+            "lastName": "Nowak",
+            "roomNumber": 231
+          },
+          {
+            "firstName": "Maciej",
+            "lastName": "Konieczny",
+            "roomNumber": 452
+          }
+        ]
+      }
+    ]
   }
-}
+]
