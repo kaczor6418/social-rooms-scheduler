@@ -3,8 +3,8 @@
     "date": "01-01-2021",
     "reservations": [
       {
-        "start": "12:30",
-        "end": "14:21",
+        "start": "01-01-2021 12:30",
+        "end": "01-01-2021 14:21",
         "people": [
           {
             "firstName": "Jan",
@@ -14,8 +14,8 @@
         ]
       },
       {
-        "start": "13:30",
-        "end": "14:21",
+        "start": " 01-01-2021 13:30",
+        "end": "01-01-2021 14:21",
         "people": [
           {
             "firstName": "Justyna",
@@ -40,8 +40,8 @@
     "date": "02-01-2021",
     "reservations": [
       {
-        "start": "12:30",
-        "end": "14:21",
+        "start": "02-01-2021 12:30",
+        "end": "02-01-2021 14:21",
         "people": [
           {
             "firstName": "Jan",
@@ -51,8 +51,8 @@
         ]
       },
       {
-        "start": "13:30",
-        "end": "14:21",
+        "start": "02-01-2021 13:30",
+        "end": "02-01-2021 14:21",
         "people": [
           {
             "firstName": "Justyna",
@@ -72,8 +72,8 @@
         ]
       },
       {
-        "start": "16:30",
-        "end": "21:45",
+        "start": "02-01-2021 16:30",
+        "end": "02-01-2021 21:45",
         "people": [
           {
             "firstName": "Justyna",
@@ -98,8 +98,8 @@
     "date": "03-01-2021",
     "reservations": [
       {
-        "start": "08:00",
-        "end": "10:21",
+        "start": "03-01-2021 08:00",
+        "end": "03-01-2021 10:21",
         "people": [
           {
             "firstName": "Antek",
@@ -124,8 +124,8 @@
     "date": "04-01-2021",
     "reservations": [
       {
-        "start": "22:30",
-        "end": "23:21",
+        "start": "04-01-2021 22:30",
+        "end": "04-01-2021 23:21",
         "people": [
           {
             "firstName": "Kamil",
@@ -148,8 +148,8 @@
     "date": "07-01-2021",
     "reservations": [
       {
-        "start": "10:30",
-        "end": "12:21",
+        "start": "07-01-2021 10:30",
+        "end": "07-01-2021 12:21",
         "people": [
           {
             "firstName": "Krzysztof",
