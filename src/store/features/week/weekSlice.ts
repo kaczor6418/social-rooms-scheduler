@@ -1,8 +1,8 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { isDefined, isNullOrUndefined } from '../../../common/UTILS';
 import { cancelReservation, initializeWeekReservations, makeReservation } from './weekActions';
 import { OperationState, Reservation, WeekDay, weekInitialState } from './weekState';
-import { UTILS } from '../../../common/UTILS';
-import { ARRAY_UTILS } from '../../../common/ARRAY_UTILS';
+import { removeArrayElement } from '../../../common/ARRAY_UTILS';
 
 const findDayReservation = (
   days: WeekDay[],
@@ -28,7 +28,7 @@ const findDayReservation = (
 
 const handleReservationAddition = (days: WeekDay[], singleReservation: Reservation) => {
   const [day, reservation] = findDayReservation(days, singleReservation);
-  if (UTILS.isNullOrUndefined(reservation)) {
+  if (isNullOrUndefined(reservation)) {
     day.reservations = [singleReservation];
   } else {
     reservation.people.push(singleReservation.people[0]);
@@ -37,9 +37,9 @@ const handleReservationAddition = (days: WeekDay[], singleReservation: Reservati
 
 const handleReservationCancellation = (days: WeekDay[], singleReservation: Reservation) => {
   const [day, reservation] = findDayReservation(days, singleReservation);
-  if (UTILS.isDefined(reservation)) {
+  if (isDefined(reservation)) {
     const indexOfReservationToDelete = day.reservations.indexOf(reservation);
-    ARRAY_UTILS.removeElement(day.reservations, indexOfReservationToDelete);
+    removeArrayElement(day.reservations, indexOfReservationToDelete);
   }
 };
 
