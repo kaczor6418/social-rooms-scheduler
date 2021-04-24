@@ -1,10 +1,10 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
+import { SingleReservation } from './interfaces/SingleReservation';
 import { askForMakingReservation, askForReservationCancellation, fetchWeek } from './weekAPI';
-import { Reservation } from './weekState';
 
 export const makeReservation = createAsyncThunk(
   'week/makeReservation',
-  async (reservation: Reservation) => {
+  async (reservation: SingleReservation) => {
     await askForMakingReservation(reservation);
     return reservation;
   }
@@ -12,7 +12,7 @@ export const makeReservation = createAsyncThunk(
 
 export const cancelReservation = createAsyncThunk(
   'week/cancelReservation',
-  async (reservation: Reservation) => {
+  async (reservation: SingleReservation) => {
     await askForReservationCancellation(reservation);
     return reservation;
   }

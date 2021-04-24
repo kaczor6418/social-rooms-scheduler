@@ -3,14 +3,15 @@ import { isDefined, isNullOrUndefined } from '../../../common/UTILS';
 import { cancelReservation, initializeWeekReservations, makeReservation } from './weekActions';
 import { OperationState, Reservation, WeekDay, weekInitialState } from './weekState';
 import { removeArrayElement } from '../../../common/ARRAY_UTILS';
+import { SingleReservation } from './interfaces/SingleReservation';
 
 const findDayReservation = (
   days: WeekDay[],
-  singleReservation: Reservation
-): [WeekDay, Reservation | undefined] => {
-  const dayReservation: [WeekDay, Reservation | undefined] = [days[0], undefined];
+  singleReservation: SingleReservation
+): [WeekDay | null, Reservation | null] => {
+  const dayReservation: [WeekDay | null, Reservation | null] = [null, null];
   for (const day of days) {
-    if (singleReservation.startUTC.startsWith(day.dateUTC)) {
+    if (singleReservation.dateUTC === day.dateUTC) {
       dayReservation[0] = day;
       for (const reservation of day.reservations) {
         if (
@@ -21,22 +22,29 @@ const findDayReservation = (
           break;
         }
       }
+      break;
     }
   }
   return dayReservation;
 };
 
-const handleReservationAddition = (days: WeekDay[], singleReservation: Reservation) => {
+const handleReservationAddition = (days: WeekDay[], singleReservation: SingleReservation) => {
   const [day, reservation] = findDayReservation(days, singleReservation);
+  if (isNullOrUndefined(day)) {
+    throw new Error(`Day: ${singleReservation.dateUTC} doesn't exists in current week`);
+  }
   if (isNullOrUndefined(reservation)) {
-    day.reservations = [singleReservation];
+    day.reservations.push({ ...singleReservation, people: [singleReservation.booking] });
   } else {
-    reservation.people.push(singleReservation.people[0]);
+    reservation.people.push(singleReservation.booking);
   }
 };
 
-const handleReservationCancellation = (days: WeekDay[], singleReservation: Reservation) => {
+const handleReservationCancellation = (days: WeekDay[], singleReservation: SingleReservation) => {
   const [day, reservation] = findDayReservation(days, singleReservation);
+  if (isNullOrUndefined(day)) {
+    throw new Error(`Day: ${singleReservation.dateUTC} doesn't exists in current week`);
+  }
   if (isDefined(reservation)) {
     const indexOfReservationToDelete = day.reservations.indexOf(reservation);
     removeArrayElement(day.reservations, indexOfReservationToDelete);
@@ -47,10 +55,10 @@ const weekSlice = createSlice({
   name: 'counter',
   initialState: weekInitialState,
   reducers: {
-    addReservation: (state, { payload }: PayloadAction<Reservation>) => {
+    addReservation: (state, { payload }: PayloadAction<SingleReservation>) => {
       handleReservationAddition(state.days, payload);
     },
-    removeReservation: (state, { payload }: PayloadAction<Reservation>) => {
+    removeReservation: (state, { payload }: PayloadAction<SingleReservation>) => {
       handleReservationCancellation(state.days, payload);
     }
   },

@@ -18,8 +18,9 @@ export function Week() {
 
   return (
     <div>
-      <pre>{JSON.stringify(days)}</pre>
-      {hasAnyDays() && <Day day={days[0]} timeRange={[0, 24]} timeStep={1} />}
+      {/*<pre>{JSON.stringify(days, null, 2)}</pre>*/}
+      {hasAnyDays() &&
+        days.map((day) => <Day key={day.dateUTC} timeRange={[0, 24]} timeStep={1} day={day} />)}
     </div>
   );
 }
