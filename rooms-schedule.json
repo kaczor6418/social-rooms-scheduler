@@ -3,8 +3,8 @@
     "dateUTC": "01-01-2021",
     "reservations": [
       {
-        "startUTC": "01-01-2021 12:30",
-        "endUTC": "01-01-2021 14:21",
+        "startUTC": "12:30",
+        "endUTC": "14:21",
         "people": [
           {
             "firstName": "Jan",
@@ -14,8 +14,8 @@
         ]
       },
       {
-        "startUTC": " 01-01-2021 13:30",
-        "endUTC": "01-01-2021 14:21",
+        "startUTC": " 13:30",
+        "endUTC": "14:21",
         "people": [
           {
             "firstName": "Justyna",
@@ -40,8 +40,8 @@
     "dateUTC": "02-01-2021",
     "reservations": [
       {
-        "startUTC": "02-01-2021 12:30",
-        "endUTC": "02-01-2021 14:21",
+        "startUTC": "12:30",
+        "endUTC": "14:21",
         "people": [
           {
             "firstName": "Jan",
@@ -51,8 +51,8 @@
         ]
       },
       {
-        "startUTC": "02-01-2021 13:30",
-        "endUTC": "02-01-2021 14:21",
+        "startUTC": "13:30",
+        "endUTC": "14:21",
         "people": [
           {
             "firstName": "Justyna",
@@ -72,8 +72,8 @@
         ]
       },
       {
-        "startUTC": "02-01-2021 16:30",
-        "endUTC": "02-01-2021 21:45",
+        "startUTC": "16:30",
+        "endUTC": "21:45",
         "people": [
           {
             "firstName": "Justyna",
@@ -98,8 +98,8 @@
     "dateUTC": "03-01-2021",
     "reservations": [
       {
-        "startUTC": "03-01-2021 08:00",
-        "endUTC": "03-01-2021 10:21",
+        "startUTC": "08:00",
+        "endUTC": "10:21",
         "people": [
           {
             "firstName": "Antek",
@@ -124,8 +124,8 @@
     "dateUTC": "04-01-2021",
     "reservations": [
       {
-        "startUTC": "04-01-2021 22:30",
-        "endUTC": "04-01-2021 23:21",
+        "startUTC": "22:30",
+        "endUTC": "23:21",
         "people": [
           {
             "firstName": "Kamil",
@@ -148,8 +148,8 @@
     "dateUTC": "07-01-2021",
     "reservations": [
       {
-        "startUTC": "07-01-2021 10:30",
-        "endUTC": "07-01-2021 12:21",
+        "startUTC": "10:30",
+        "endUTC": "12:21",
         "people": [
           {
             "firstName": "Krzysztof",
