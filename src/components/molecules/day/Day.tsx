@@ -1,5 +1,5 @@
 import React from 'react';
-import { TimeCard } from '../../atoms/timeCard/TimeCard';
+import { TimeCard } from '../timeCard/TimeCard';
 import { DayProps } from './DayProps';
 import { TimeNumberConverter } from '../../../converters/TimeNumberConverter';
 
